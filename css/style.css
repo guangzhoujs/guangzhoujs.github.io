@@ -132,7 +132,7 @@ body {
 .article-entry h4,
 .article-entry h5,
 .article-entry h6 {
-  color: #16171b;
+  color: #79c330;
 }
 #rocket {
   position: fixed;
@@ -431,7 +431,7 @@ body {
   font-weight: normal;
 }
 .article-date:hover {
-  color: #ff2828;
+  color: #79c330;
 }
 .article-category {
   text-align: center;
@@ -453,18 +453,16 @@ body {
   color: #333;
 }
 .article-category-link:hover {
-  color: #ff2828;
+  color: #79c330;
 }
 .article-header h1 {
   margin: 0 0 3px 0;
   font-size: 2em;
   line-height: 1.2;
-  font-weight:normal;
 }
 .article-header h1 a {
   color: #222;
   text-decoration: none;
-  font-weight:normal;
 }
 .article-title {
   text-decoration: none;
@@ -477,7 +475,7 @@ body {
   transition: color 0.2s;
 }
 a.article-title:hover {
-  color: #ff2828;
+  color: #79c330;
   text-decoration: none;
 }
 .article-entry {
@@ -519,7 +517,7 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-entry a:hover {
-  color: #ff2828;
+  color: #79c330;
   text-decoration: none;
 }
 .article-entry ul,
@@ -647,7 +645,7 @@ a.article-title:hover {
   text-align: center;
 }
 .article-more-link a {
-  color: #ff2828;
+  color: #79c330;
   display: inline-block;
   font-size: 0.9em;
   line-height: 1em;
@@ -969,7 +967,7 @@ a.article-title:hover {
   background-color: transparent !important;
 }
 .nav .active > a {
-  color: #ff2828;
+  color: #79c330;
 }
 .nav-link {
   font-family: "futura-pt", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
@@ -977,7 +975,7 @@ a.article-title:hover {
   padding: 1px !important;
 }
 .nav-link:hover {
-  color: #ff2828;
+  color: #79c330;
 }
 .nav-child {
   margin-left: 1em;
@@ -1010,7 +1008,7 @@ a.article-title:hover {
   font-size: 1.5em;
 }
 .archive-year {
-  color: #16171b;
+  color: #79c330;
 }
 .archive-year:before {
   font-family: "FontAwesome";
@@ -1022,21 +1020,21 @@ a.article-title:hover {
   margin: 1em 0 0 0;
   font-size: 1.2em;
   font-weight: bold;
-  color: #16171b;
+  color: #79c330;
   text-align: center;
-  border-left: 0px solid #ff2828;
+  border-left: 0px solid #79c330;
   background: rgba(208,211,248,0.15);
 }
 .archives-tags-wrap blockquote a {
-  color: #16171b;
+  color: #79c330;
   margin: 0.2em;
 }
 .archives-tags-wrap blockquote a:hover {
-  color: #ff2828;
+  color: #79c330;
 }
 .archive-tag {
   text-transform: none;
-  color: #16171b;
+  color: #79c330;
 }
 .archive-tag:before {
   font-family: "FontAwesome";
@@ -1051,17 +1049,17 @@ a.article-title:hover {
   font-size: 1.1em;
   font-weight: bold;
   line-height: 1.7em;
-  color: #ff2828;
+  color: #79c330;
   text-align: left;
-  border-left: 0px solid #ff2828;
+  border-left: 0px solid #79c330;
   background: rgba(208,211,248,0.15);
 }
 .archives-category-wrap blockquote a {
-  color: #16171b;
+  color: #79c330;
   margin: 0.2em;
 }
 .archives-category-wrap blockquote a:hover {
-  color: #ff2828;
+  color: #79c330;
 }
 .archives-category-wrap blockquote a:before {
   font-family: "FontAwesome";
@@ -1073,7 +1071,7 @@ a.article-title:hover {
 }
 .archive-category {
   text-transform: none;
-  color: #16171b;
+  color: #79c330;
 }
 .archive-category:before {
   font-family: "FontAwesome";
@@ -1118,11 +1116,11 @@ a.article-title:hover {
   -ms-transition: color 0.2s;
   transition: color 0.2s;
   line-height: 1.6em;
-  border-left: 1px solid #16171b;
+  border-left: 1px solid #79c330;
   padding-left: 15px;
 }
 .archive-article-title:hover {
-  color: #ff2828;
+  color: #79c330;
 }
 .archive-article-footer {
   margin-top: 1em;
@@ -1139,7 +1137,7 @@ a.article-title:hover {
   font-family: "futura-pt", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
 }
 .archive-article-date:hover {
-  color: #ff2828;
+  color: #79c330;
 }
 #page-nav {
   margin: 50px auto;
@@ -1167,12 +1165,12 @@ a.article-title:hover {
   text-decoration: none;
 }
 #page-nav a:hover {
-  background: #ff2828;
+  background: #79c330;
   color: #fff;
 }
 #page-nav .prev {
   color: #fff;
-  background: #16171b;
+  background: #79c330;
   float: left;
 }
 #page-nav .prev:before {
@@ -1182,7 +1180,7 @@ a.article-title:hover {
 }
 #page-nav .next {
   color: #fff;
-  background: #16171b;
+  background: #79c330;
   float: right;
 }
 #page-nav .next:after {
@@ -1469,7 +1467,7 @@ pre .xml .cdata {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #191919;
+    background: #79c330;
     border-right: 1px solid #fff;
   }
 }
@@ -1539,7 +1537,7 @@ pre .xml .cdata {
   display: inline-block;
 }
 .ins-close:hover {
-  color: #16171b;
+  color: #79c330;
 }
 .ins-search-container {
   left: 50%;
@@ -1551,7 +1549,7 @@ pre .xml .cdata {
   box-sizing: border-box;
   width: 540px;
   margin-left: -270px;
-  border-top: 2px solid #ff2828;
+  border-top: 2px solid #79c330;
 }
 @media screen and (max-width: 559px), screen and (max-height: 479px) {
   .ins-search-container {
@@ -1615,7 +1613,7 @@ pre .xml .cdata {
 .ins-section .ins-search-item:hover,
 .ins-section .ins-search-item.active {
   color: #fff;
-  background: #16171b;
+  background: #79c330;
 }
 .ins-section .ins-search-item:hover .ins-slug,
 .ins-section .ins-search-item.active .ins-slug,
@@ -1658,7 +1656,7 @@ pre .xml .cdata {
   text-decoration: none;
 }
 .widget a:hover {
-  color: #ff2828;
+  color: #79c330;
   text-decoration: none;
 }
 .widget ul ul,
@@ -1691,10 +1689,10 @@ pre .xml .cdata {
   line-height: 1.2;
   color: #222;
   font-weight: 700;
-  font-family: "Yanone Kaffeesatz", "方正姚体", Arial, Helvetica, sans-serif;
+  font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
 }
 .widget_athemes_tabs .widget ul li a:hover {
-  color: #ff2828;
+  color: #79c330;
 }
 .widget {
   line-height: 1.6em;
