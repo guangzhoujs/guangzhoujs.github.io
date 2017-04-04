@@ -17,6 +17,7 @@
 .user-list li {
   float: left;
   width: 23%;
+  height: 260px;
   margin: 0 10px 10px 10px;
 }
 .user-list li img {
