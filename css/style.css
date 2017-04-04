@@ -214,8 +214,8 @@ body {
   transform: scale(1.4, 3.2);
 }
 .outer {
-  max-width: 1040px;
-  margin: 40px auto;
+  max-width: 1280px;
+  margin: 0px auto 20px;
   padding: 0 20px;
 }
 .outer:before,
@@ -229,8 +229,8 @@ body {
 .inner {
   display: inline;
   float: left;
-  width: 98.0392156862745%;
-  margin: 0 0.980392156862745%;
+  width: 98.4126984126984%;
+  margin: 0 0.793650793650794%;
 }
 .left,
 .alignleft {
@@ -267,8 +267,8 @@ body {
   #main {
     display: inline;
     float: left;
-    width: 64.70588235294117%;
-    margin: 0 0.980392156862745%;
+    width: 65.07936507936508%;
+    margin: 0 0.793650793650794%;
   }
 }
 .archive-year,
@@ -1628,8 +1628,8 @@ pre .xml .cdata {
   #sidebar {
     display: inline;
     float: left;
-    width: 31.372549019607842%;
-    margin: 0 0.980392156862745%;
+    width: 31.746031746031743%;
+    margin: 0 0.793650793650794%;
   }
 }
 @media screen and (max-width: 479px) {

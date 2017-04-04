@@ -9,15 +9,16 @@
   
   
   
-  <meta name="description" content="广州前端交流群是广州地区浏览量最大的中文前端门户网站，是由广州前端从业人员发起，为广州数以万计的互联网用户提供富有创意的前端新生活。">
+  <meta name="description" content="*以上排名不分先后">
 <meta property="og:type" content="website">
 <meta property="og:title" content="广州前端交流群 - 519033606">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="广州前端交流群 - 519033606">
-<meta property="og:description" content="广州前端交流群是广州地区浏览量最大的中文前端门户网站，是由广州前端从业人员发起，为广州数以万计的互联网用户提供富有创意的前端新生活。">
+<meta property="og:description" content="*以上排名不分先后">
+<meta property="og:updated_time" content="2017-04-04T15:43:14.681Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="广州前端交流群 - 519033606">
-<meta name="twitter:description" content="广州前端交流群是广州地区浏览量最大的中文前端门户网站，是由广州前端从业人员发起，为广州数以万计的互联网用户提供富有创意的前端新生活。">
+<meta name="twitter:description" content="*以上排名不分先后">
   
     <link rel="alternate" href="/atom.xml" title="广州前端交流群 - 519033606" type="application/atom+xml">
   
@@ -97,136 +98,96 @@
             
       <div id="content" class="outer">
         
-          <section id="main">
-  
-    <article id="post-article/welcome-2017"  class="article article-type-post" itemscope itemprop="blogPost" >
+          <section id="main"><article id="page-undefined"  class="article article-type-page" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
     
-      <header class="article-header">
-        
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2017/04/05/article/welcome-2017/">2017-我们来了</a>
-    </h1>
-  
-
-      </header>
-    
     <div class="article-meta">
       
-	Posted on <a href="/2017/04/05/article/welcome-2017/" class="article-date">
-	  <time datetime="2017-04-04T16:00:17.146Z" itemprop="datePublished">四月 5, 2017</time>
-	</a>
-
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>2017年我们来了。</p>
+        <!--CUSTOM STYLE-->
+<link rel="stylesheet" type="text/css" href="/css/my/common-own.css">
+<!--CUSTOM STYLE END-->
+<div class="article-row">
+    <article class="article article-summary">
+        <div class="article-summary-inner">
+            <div id="app" class="article-city">
+                <div class="article-item">
+                    <div class="article-city-inner">
+                        <all-user-list :all-user-info="all"></all-user-list>
+                        <p class="article-statement">*以上排名不分先后</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+<!--CUSTOM SCRIPT-->
+<script id="tpl-user-list">
+    var tplUserList = `<ol class="user-list clearfix" >
+            <li v-for="(item, index) in allUserInfo">
+                <div class="user-title"><h2><em class="no" v-text="index+1">.</em><a :href="item.blog" target="_blank" v-text="item.name"></a></h2></div>
+                <div class="userinfo-content">
+                    <a class="userinfo-img" :href="item.blog" target="_blank"><img :src="item.avatar" alt=""></a>
+                    <div class="desc">
+                        <dl class="desc-info">
+                            <dd v-if="item.blog"><a :href="item.blog" target="_blank">博客</a></dd>
+                            <dd ><a :href="item.github" target="_blank">Github</a></dd>
+                            <dd v-if="item.website"><a :href="item.website" target="_blank">个人站点</a></dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="useinfo-word"><p class="sub" :title="item.word" v-text="item.word"></p></div>
+            </li>
+        </ol>`
+</script>
+
+<script src="/js/vue.min.js"></script>
+<script src="/js/my/about.js"></script>
+<!--CUSTOM SCRIPT END-->
 
       
     </div>
     <footer class="entry-meta entry-footer">
       
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/开源消息/">开源消息</a>
-
       
       
-    </footer>
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-hr/index"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-      <header class="article-header">
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2017/03/08/hr/index/">【招聘】- 招聘信息标题</a>
-    </h1>
-  
+	<div id="comment">
+	
+	<!-- 多说评论框 start -->
+	 <div class="ds-thread" data-thread-key="/about/index.html" data-title="" data-url="http://yoursite.com/about/index.html"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"guangzhoujs"};
+	  (function() {
+	    var ds = document.createElement('script');
+	    ds.type = 'text/javascript';ds.async = true;
+	    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	    ds.charset = 'UTF-8';
+	    (document.getElementsByTagName('head')[0] 
+	     || document.getElementsByTagName('body')[0]).appendChild(ds);
+	  })();
+	  </script>
+	<!-- 多说公共JS代码 end -->
+	
+	</div>
+	<link rel="stylesheet" href="/css/comment.css">
 
-      </header>
-    
-    <div class="article-meta">
-      
-	Posted on <a href="/2017/03/08/hr/index/" class="article-date">
-	  <time datetime="2017-03-08T14:30:12.000Z" itemprop="datePublished">三月 8, 2017</time>
-	</a>
 
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>这里边将来放招聘信息</p>
-
-      
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/招聘/">招聘</a>
-
-      
       
     </footer>
   </div>
   
-</article>
-
-<!-- Table of Contents -->
-
-  
-    <article id="post-job/index"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
-    
-      <header class="article-header">
-        
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2017/03/08/job/index/">【求职】- 求职信息标题</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-meta">
-      
-	Posted on <a href="/2017/03/08/job/index/" class="article-date">
-	  <time datetime="2017-03-08T14:30:12.000Z" itemprop="datePublished">三月 8, 2017</time>
-	</a>
-
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>这里边将来放求职信息</p>
-
-      
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/求职/">求职</a>
-
-      
-      
-    </footer>
-  </div>
   
 </article>
 
 <!-- Table of Contents -->
-
-  
-
-
 </section>
           <aside id="sidebar">
   
